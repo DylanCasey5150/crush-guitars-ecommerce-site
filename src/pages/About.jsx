@@ -1,16 +1,8 @@
 import workbench from '../assets/images/workbench.png';
 
-
-
-
 export default function About() {
-    return (
-<<<<<<< Updated upstream
-      <div className="text-white text-2xl text-center mt-20">
-        About Crush Guitars
-      </div>
-=======
-       <div className="bg-black text-[#F3E9D6] font-serif min-h-screen px-6 md:px-20 py-16 space-y-24">
+  return (
+    <div className="bg-black text-[#F3E9D6] font-serif min-h-screen px-6 md:px-20 py-16 space-y-24">
 
       {/* Hero Section */}
       <section className="text-center space-y-6">
@@ -40,7 +32,7 @@ export default function About() {
       {/* Values Section */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
         {[
-          { title: "Artisan Craft", desc: "Every detail is designed with purpose and precision." },
+          { title: "Artistic Detail", desc: "Every contour and finish is crafted with expressive elegance and character." },
           { title: "Superior Tone", desc: "Premium woods and electronics selected for balance, clarity, and warmth." },
           { title: "Legacy Design", desc: "Made to inspire, last, and be passed down." },
         ].map((val, idx) => (
@@ -62,7 +54,5 @@ export default function About() {
         </a>
       </section>
     </div>
->>>>>>> Stashed changes
-    );
-  }
- 
+  );
+}
