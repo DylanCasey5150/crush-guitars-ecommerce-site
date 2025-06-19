@@ -1,6 +1,6 @@
-import darkRoseLeaf from '../assets/images/guitar-hero.jpg'; // Replace with actual image
-import blueBerryEcho from '../assets/images/guitar-hero.jpg'; // Replace with actual image
-import midnightReverie from '../assets/images/guitar-hero.jpg'; // Replace with actual image
+import darkRoseLeaf from '../assets/images/guitar-hero.jpg'; 
+import blueBerryEcho from '../assets/images/guitar-hero.jpg'; 
+import midnightReverie from '../assets/images/guitar-hero.jpg'; 
 
 const limitedModels = [
   {
